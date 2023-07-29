@@ -1,0 +1,188 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    font-family: 'poppins',sans-serif ;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+header{
+    background-color:rgb(50, 36, 68);
+    width:100%;
+    z-index:999;
+    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header h1{
+    font-family:NSimSun;
+    color:rgb(106, 173, 164);
+    margin:7px;
+    font-size:2em;
+}
+header a{
+    text-decoration:none;
+    color:rgb(106, 173, 164);
+    font-weight:700;
+    font-size:1.5em;
+    margin:7px
+}
+header a:hover{
+    color:deeppink;
+}
+.main{
+    background-image:url(back.jpg);
+    padding:250px;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+
+}
+.main h2{
+    color:rgb(106, 173, 164);
+    font-family:'Sitka Text';
+    font-size:3em;
+    text-align:center;
+    letter-spacing:1px;
+
+}
+.main span{
+    color:rgb(109, 0, 255);
+    font-weight:600;
+    font-family:'Javanese Text';
+}
+.main h3{
+    text-align:center;
+    font-family:'Sitka Banner';
+    color:rgb(106, 173, 164);
+    font-size:2em;
+    margin-bottom:20px;
+}
+.main-btn{
+    text-decoration:none;
+    display:inline-block;
+    color:rgb(106, 173, 164);
+    font-size:2em;
+    font-weight:500;
+    border-radius:10px;
+    background-color:rgb(109, 0, 255);
+    font-family:sans-serif;
+    padding:5px;
+    transition:1s ease;
+}
+.main-btn:hover{
+    background-color:rgb(50, 36, 68);
+    transform: scale(1.1);
+}
+.soi{
+    text-align:center;
+}
+.soi a{
+    color:cornflowerblue;
+    font-size:1.5em;
+    margin:3px;
+}
+.cards {
+
+}
+.st {
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:rgb(109, 0, 255);
+    font-size:3em;
+    font-family:Bahnschrift;
+    margin:50px;
+}
+.contant1 {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    position:center;
+    flex-wrap:wrap;
+}
+.card{
+    box-shadow:0 5px 25px rgb(128, 128, 128);
+    margin:20px;
+    padding:25px;
+    width:30%;
+    transition:1s ease;
+}
+.card:hover{
+    transform:scale(1.1);
+    background-color:rgb(50, 36, 68);
+}
+.icon{
+    font-size:10em;
+    color:rgb(106, 173, 164);
+}
+.info h3{
+    font-size:1.5em;
+    color:rgb(106, 173, 164);
+    font-family:'Microsoft YaHei';
+}
+.info p{
+    font-size:1em;
+    font-family:sans-serif;
+    letter-spacing:1px;
+    margin-top:5px;
+    color:rgb(106, 173, 164);
+}
+.p{
+    
+    width:30%;
+    flex-direction:row;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:10px;
+    border:5px solid rgb(50, 36, 68);
+    overflow:hidden;
+    background-color:rgb(50, 36, 68);
+}
+.i{
+    display:flex;
+    justify-content:center;
+}
+.n .c{
+    font-family:'Microsoft YaHei';
+    font-size:1.5em;
+    color:rgb(106, 173, 164);
+}
+.tt{
+    display:flex;
+    justify-content:space-between;
+    width:100%
+}
+.tt a{
+    text-decoration:none;
+    color:rgb(106, 173, 164);
+    font-size:1em;
+}
+.tt a:hover{
+    color:cornflowerblue;
+}
+.tt span{
+    color:rgb(106, 173, 164);
+    font-size:1em;
+    font-family:'Comic Sans MS';
+}
+footer{
+    background-color:rgb(43, 41, 50);
+    display:flex;
+    justify-content:space-between;
+}
+footer a{
+    color:rgb(106, 173, 164);
+    font-size:2em;
+    margin-right:10px;
+}
+.fot{
+    color:rgb(106, 173, 164);
+    font-size:2em;
+}
+#contact{
+    padding-bottom:100px;
+}
